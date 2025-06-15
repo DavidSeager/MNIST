@@ -1,3 +1,3 @@
-This repository is my attempt at the image number classifying of the MNIST dataset. I use the code I had written in my Neural-Networks repository where I repurposed and improved both 
-the Numpy-only and PyTorch codes to work as classifiers fo the MNIST dataset. The improvement came from instead of training with one data sample at a time, I train the neural networks
-with mini-batches of 128 data samples at a time which greatly decreases computation time. Both the Numpy-only and PyTorch neural networks achieve accuracies of around 98%.
+This repository contains my attempt to classify handwritten digits from the MNIST dataset. I reused and refined the code from my Neural-Networks repository, adapting both the NumPy-only and PyTorch implementations to serve as MNIST classifiers.
+
+The key improvement was switching from single-sample training to mini-batches of 128 samples, which greatly reduced computation time. Both the NumPy-only and PyTorch networks achieve about 98 % accuracy.
